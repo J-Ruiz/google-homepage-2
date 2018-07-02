@@ -47,17 +47,62 @@ table {
 	border-spacing: 0;
 }
 
+.navbar {
+  margin-top: 10px;
+}
 
-.rightnavbar li{
-  display: inline;
+.navbar li{
+  display: inline-block;
+  padding: 20px 12px;
+  font-family: arial;
+  font-size: 12px;
+}
+
+
+.navbar li a {
+  text-decoration: none;
+  color: black;
+}
+.navbar li a:hover {
+  text-decoration: underline;
+  color: black;
+}
+
+.navbar .right{
   float: right;
 }
 
-.rightnavbar img{
+.navbar .right img{
   width: 20px;
   height: 20px;
 }
 
-.leftnavbar li {
-  display: inline;
+.navbar .left {
+  float: left;
+}
+
+.logo {
+   height: 200px;
+   margin-top: 50px;
+}
+
+.logo img {
+  box-sizing: border-box;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 120px;
+}
+
+.search form {
+  padding-top: 50px;
+}
+.search form input {
+  box-sizing: border-box;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 15px;
+  padding-left: 350px;
+  text-align: center;
 }
