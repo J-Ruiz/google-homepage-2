@@ -83,7 +83,7 @@ table {
 
 .logo {
    height: 200px;
-   margin-top: 50px;
+   margin-top: 30px;
 }
 
 .logo img {
@@ -95,7 +95,7 @@ table {
 }
 
 .search form {
-  padding-top: 50px;
+  padding-top: 30px;
 }
 .search form input {
   box-sizing: border-box;
@@ -106,3 +106,11 @@ table {
   padding-left: 350px;
   text-align: center;
 }
+
+ .buttons form{
+  padding-top: 15px;
+ }
+
+ .buttons {
+   text-align: center;
+ }
